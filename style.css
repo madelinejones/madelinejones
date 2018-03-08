@@ -48,6 +48,8 @@ nav li a:hover {
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
   color: #000;
+  font-size: 1em;
+  line-height: 1.25em;
   padding-top: 55px;
 }
 
@@ -183,8 +185,13 @@ input[type=submit]:hover {
 }
 
 @media (min-width: 64em) {
+
   nav li a {
     font-size: 14pt;
+  }
+
+  body {
+    line-height: 1.375em;
   }
 
   #intro {
