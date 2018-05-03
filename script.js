@@ -2,9 +2,7 @@
 var navLinks = document.getElementsByClassName("nav-link");
 
 function changeActive() {
-  for (var i = 0; i < navLinks.length; i++) {
-    navLinks[i].classList.toggle("active");
-  }
+  this.classList.toggle("active");
 }
 
 for (var i = 0; i < navLinks.length; i++) {
