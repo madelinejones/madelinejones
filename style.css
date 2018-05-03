@@ -93,8 +93,8 @@ body {
   padding: 1em 3em;
 }
 
-#portfolio, #contact {
-  padding: 1em;
+#about, #portfolio, #contact {
+  padding: 2em;
 }
 
 #portfolio {
