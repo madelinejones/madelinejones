@@ -19,6 +19,10 @@ nav a:link {
   color: #fff;
 }
 
+nav a:hover {
+  color: #a2a4fb;
+}
+
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
   color: #000;
