@@ -1,17 +1,16 @@
-function toggleItem(elem) {
-  for (var i = 0; i < elem.length; i++) {
-    elem[i].addEventListener("click", function(e) {
+function toggleItem(navLink) {
+  for (var i = 0; i < navLink.length; i++) {
+    navLink[i].addEventListener("click", function() {
       var current = this;
-      for (var i = 0; i < elem.length; i++) {
-        if (current != elem[i]) {
-          elem[i].classList.remove('active');
+      for (var i = 0; i < navLink.length; i++) {
+        if (current != navLink[i]) {
+          navLink[i].classList.remove('active');
         } else if (current.classList.contains('active') === true) {
           current.classList.remove('active');
         } else {
           current.classList.add('active')
         }
       }
-      e.preventDefault();
     });
   };
 }
