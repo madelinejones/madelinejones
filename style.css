@@ -62,22 +62,22 @@ body {
   font-weight: 800;
 }
 
-#aboutStyles h1, #contactStyles h1 {
+#about h1, #contact h1 {
   font-size: 2em;
   font-weight: 600;
   color: #9797de;
   text-align: center;
 }
 
-#aboutStyles .container {
+#about .container {
   padding: 1em 3em;
 }
 
-#aboutStyles, #portfolioStyles, #contactStyles {
+#about, #portfolio, #contact {
   padding: 2em;
 }
 
-#portfolioStyles {
+#portfolio {
   background-color: #9797de;
 }
 
@@ -178,7 +178,7 @@ input[type=submit]:hover {
     padding-top: 70px;
   }
 
-  #aboutStyles .container {
+  #about .container {
     padding: 1em 15em;
   }
 }
