@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-nav a:link {
+.nav-link .nav-item a:link {
   color: #5558fb;
 }
 
@@ -19,7 +19,11 @@ nav a:link {
   color: #fff;
 }
 
-.nav-link a:hover {
+.nav-pills .nav-link.active:hover {
+  background-color: #7072ff;
+}
+
+.nav-link .nav-item a:hover {
   color: #a2a4fb;
   text-decoration: underline;
 }
@@ -87,6 +91,7 @@ body {
 
 .btn-primary:hover {
   background-color: #7072ff;
+  border-color: #6062dd;
 }
 
 footer {
