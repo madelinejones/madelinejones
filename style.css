@@ -9,17 +9,17 @@ nav a:link {
   color: #5558fb;
 }
 
-nav .nav {
+.nav {
   padding: 1em;
   background-color: #fff;
 }
 
-nav .nav-link.active {
+.nav-pills .nav-link.active {
   background-color: #5558fb;
   color: #fff;
 }
 
-nav .nav-link a:hover {
+.nav-link a:hover {
   color: #a2a4fb;
   text-decoration: underline;
 }
