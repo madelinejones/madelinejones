@@ -23,7 +23,7 @@ a.nav-link.nav-item {
   background-color: #7072ff;
 }
 
-.nav-link .nav-item a:hover {
+a.nav-link.nav-item:hover {
   color: #a2a4fb;
   text-decoration: underline;
 }
