@@ -9,17 +9,17 @@ nav a:link {
   color: #5558fb;
 }
 
-.nav {
+nav .nav {
   padding: 1em;
   background-color: #fff;
 }
 
-.nav-pills .nav-link.active {
+nav .nav-link.active {
   background-color: #5558fb;
   color: #fff;
 }
 
-nav a:hover {
+nav .nav-link a:hover {
   color: #a2a4fb;
   text-decoration: underline;
 }
@@ -80,26 +80,10 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-/* #portfolio ul {
-  list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0;
+#portfolio .btn-primary {
+  background-color: #5558fb;
+  border-color: #4b4ddd;
 }
-
-#portfolio li {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 auto;
-          flex: 0 1 auto;
-  padding: 1em;
-} */
 
 footer {
   padding: 2em;
