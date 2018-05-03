@@ -7,15 +7,15 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-  <header>
-    <nav class="nav fixed-top justify-content-end nav-pills" role="navigation">
-      <a class="nav-link active nav-item" href="index.html">Home</a>
-      <a class="nav-link nav-item" href="#about">About</a>
-      <a class="nav-link nav-item" href="portfolio/index.html">Portfolio</a>
-      <a class="nav-link nav-item" href="#contact">Contact</a>
-    </nav>
-  </header>
   <body>
+    <header>
+      <nav id="navbar" class="nav fixed-top justify-content-end nav-pills" role="navigation">
+        <a class="nav-link active nav-item" href="index.html">Home</a>
+        <a class="nav-link nav-item" href="#about">About</a>
+        <a class="nav-link nav-item" href="portfolio/index.html">Portfolio</a>
+        <a class="nav-link nav-item" href="#contact">Contact</a>
+      </nav>
+    </header>
     <div class="container-fluid">
       <section id="intro">
         <div class="banner">
@@ -24,66 +24,68 @@
         </div>
       </section>
     </div>
-    <section id="about">
-      <h1>About</h1>
-      <div class="container">
-        <p>I am a front-end developer located in the heart of South Florida. Although I was born here, I was raised in Orlando, and made my way back south a few years ago. Although I specialize in <strong>front-end technologies</strong>, I am also skilled in <strong>web and graphic design</strong>, and I have a passion for <strong>UX design</strong>.</p>
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="sunny.jpg" alt="Sunny Shepherds, German Shepherd Breeder">
-              <div class="card-body">
-                <h5 class="card-title">Sunny Shepherds</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div data-spy="scroll" data-target="#navbar" data-offset="0">
+      <section id="about">
+        <h1>About</h1>
+        <div class="container">
+          <p>I am a front-end developer located in the heart of South Florida. Although I was born here, I was raised in Orlando, and made my way back south a few years ago. Although I specialize in <strong>front-end technologies</strong>, I am also skilled in <strong>web and graphic design</strong>, and I have a passion for <strong>UX design</strong>.</p>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="sunny.jpg" alt="Sunny Shepherds, German Shepherd Breeder">
+                <div class="card-body">
+                  <h5 class="card-title">Sunny Shepherds</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="dsummers.jpg" alt="Dahlia Summers, a comedian">
-              <div class="card-body">
-                <h5 class="card-title">Dahlia Summers</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="dsummers.jpg" alt="Dahlia Summers, a comedian">
+                <div class="card-body">
+                  <h5 class="card-title">Dahlia Summers</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="oceancrest.jpg" alt="Oceancrest Cafe">
-              <div class="card-body">
-                <h5 class="card-title">Oceancrest Cafe</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="col">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="oceancrest.jpg" alt="Oceancrest Cafe">
+                <div class="card-body">
+                  <h5 class="card-title">Oceancrest Cafe</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="contact">
-      <h1>Contact</h1>
-        <div class="container">
-          <form action="https://formspree.io/brandkast@live.com" method="POST">
-          <label for="fName">First Name</label>
-          <input type="text" id="fName" name="firstName" placeholder="Your name...">
-          <label for="lName">Last Name</label>
-          <input type="text" id="lName" name="lastName" placeholder="Your last name...">
-          <label for="eMail">E-mail</label>
-          <input type="email" id="eMail" name="eMail" placeholder="name@address.com">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write something..." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
-    </section>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+          <div class="container">
+            <form action="https://formspree.io/brandkast@live.com" method="POST">
+            <label for="fName">First Name</label>
+            <input type="text" id="fName" name="firstName" placeholder="Your name...">
+            <label for="lName">Last Name</label>
+            <input type="text" id="lName" name="lastName" placeholder="Your last name...">
+            <label for="eMail">E-mail</label>
+            <input type="email" id="eMail" name="eMail" placeholder="name@address.com">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write something..." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+    </div>
     <footer>
       <ul>
         <li>&copy; 2018 Madeline Jones</li>
@@ -92,6 +94,6 @@
         <li><a href="https://github.com/madelinejones"><span class="fab fa-github"></span></a></li>
       </ul>
     </footer>
-    <script src="script.js"></script>
+    <script src="bootstrap.min.js"></script>
   </body>
 </html>
