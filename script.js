@@ -7,6 +7,7 @@ function changeActive() {
   } else {
     this.classList.add("active");
 }
+}
 
 for (var i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click", changeActive);
