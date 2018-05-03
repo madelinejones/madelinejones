@@ -1,17 +1,16 @@
 // Changes which link is highlighted as active when clicked
+var navLinks = document.getElementsByClassName("nav-link");
+
 function changeActive() {
-  let selected = this;
-  let navLinks = document.getElementsByClassName("nav-link");
-  for (let i = 0; i < navLinks.length; i++) {
-    if (selected === navLinks[i]) {
+  for (var i = 0; i < navLinks.length; i++) {
+    if (!navLinks[i].classList.contains("active")) {
       navLinks[i].classList.add("active");
-    } else if (selected.classList.contains("active")) {
-        selected.classList.remove("active");
+    } else if (navLinks[i].classList.contains("active")) {
+        navLinks[i].classList.remove("active");
     }
   }
 }
 
-let navLinks = document.getElementsByClassName("nav-link");
-for (let i = 0; i < navLinks.length; i++) {
+for (var i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click", changeActive);
 }
