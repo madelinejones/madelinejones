@@ -101,8 +101,8 @@ body {
   background-color: #9797de;
 }
 
-#portfolio .card {
-  padding: 1em;
+.card-img-top {
+  border-bottom: 1px solid #eee;
 }
 
 /* #portfolio ul {
