@@ -5,27 +5,27 @@
           box-sizing: border-box;
 }
 
-a.nav-link.nav-item {
-  color: #5558fb;
-}
-
 .nav {
   padding: 1em;
   background-color: #fff;
 }
 
-.nav-pills .nav-link.active {
-  background-color: #5558fb;
-  color: #fff;
-}
-
-.nav-pills .nav-link.active:hover {
-  background-color: #7072ff;
+a.nav-link.nav-item {
+  color: #5558fb;
 }
 
 a.nav-link.nav-item:hover {
   color: #a2a4fb;
-  text-decoration: underline;
+}
+
+a.nav-link.active.nav-item {
+  background-color: #5558fb;
+  color: #fff;
+}
+
+a.nav-link.active.nav-item:hover {
+  background-color: #7072ff;
+  color: #fff;
 }
 
 body {
