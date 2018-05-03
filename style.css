@@ -10,12 +10,9 @@
   background-color: #fff;
 }
 
-.nav-link {
+.nav-link.actiive {
+  background-color: #fbdc55;
   color: #ae9218;
-}
-
-.active {
-  background-color: #fbdc55
 }
 
 body {
