@@ -101,11 +101,11 @@ body {
   background-color: #9797de;
 }
 
-#portfolio img {
-  width: 100% \9;
+#portfolio .card {
+  padding: 1em;
 }
 
-#portfolio ul {
+/* #portfolio ul {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -124,7 +124,7 @@ body {
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
   padding: 1em;
-}
+} */
 
 footer {
   padding: 2em;
