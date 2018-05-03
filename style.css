@@ -5,14 +5,18 @@
           box-sizing: border-box;
 }
 
+nav a:link {
+  color: #5558fb;
+}
+
 .nav {
   padding: 1em;
   background-color: #fff;
 }
 
 .nav-pills .nav-link.active {
-  background-color: #fbdc55;
-  color: #ae9218;
+  background-color: #5558fb;
+  color: #fff;
 }
 
 body {
