@@ -7,12 +7,12 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-  <body data-spy="scroll" data-target=".nav">
+  <body data-spy="scroll" data-target="#navbar">
     <header>
-      <nav class="nav fixed-top justify-content-end nav-pills" role="navigation">
+      <nav id="navbar" class="nav fixed-top justify-content-end nav-pills" role="navigation">
         <a class="nav-link active nav-item" href="index.html">Home</a>
         <a class="nav-link nav-item" href="#about">About</a>
-        <a class="nav-link nav-item" href="portfolio/index.html">Portfolio</a>
+        <a class="nav-link nav-item" href="#portfolio">Portfolio</a>
         <a class="nav-link nav-item" href="#contact">Contact</a>
       </nav>
     </header>
@@ -25,13 +25,14 @@
       </section>
     </div>
     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-      <section id="about">
-        <h1>About</h1>
+      <section id="aboutStyles">
+        <h1 id="about">About</h1>
         <div class="container">
           <p>I am a front-end developer located in the heart of South Florida. Although I was born here, I was raised in Orlando, and made my way back south a few years ago. Although I specialize in <strong>front-end technologies</strong>, I am also skilled in <strong>web and graphic design</strong>, and I have a passion for <strong>UX design</strong>.</p>
         </div>
       </section>
-      <section id="portfolio">
+      <section id="portfolioStyles">
+        <h1 id="portfolio">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -69,8 +70,8 @@
           </div>
         </div>
       </section>
-      <section id="contact">
-        <h1>Contact</h1>
+      <section id="contactStyles">
+        <h1 id="contact">Contact</h1>
           <div class="container">
             <form action="https://formspree.io/brandkast@live.com" method="POST">
             <label for="fName">First Name</label>
