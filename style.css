@@ -80,9 +80,13 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-#portfolio .btn-primary {
+.btn-primary {
   background-color: #5558fb;
   border-color: #4b4ddd;
+}
+
+.btn-primary:hover {
+  background-color: #7072ff;
 }
 
 footer {
