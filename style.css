@@ -5,7 +5,7 @@
           box-sizing: border-box;
 }
 
-.nav-link .nav-item a:link {
+a.nav-link.nav-item {
   color: #5558fb;
 }
 
