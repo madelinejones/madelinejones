@@ -188,15 +188,6 @@ input[type=submit]:hover {
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
-
-  nav li a {
-    font-size: 14pt;
-  }
-
-  body {
-    line-height: 1.5em;
-  }
-
   #intro {
     padding: 18em 1em;
   }
@@ -207,5 +198,9 @@ input[type=submit]:hover {
 
   #about .container {
     padding: 1em 15em;
+  }
+
+  div.col {
+    padding: 0.75em;
   }
 }
