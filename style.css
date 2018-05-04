@@ -31,8 +31,6 @@ a.nav-link.active.nav-item:hover {
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
   color: #000;
-  font-size: 16px;
-  line-height: 1.25em;
   padding-top: 55px;
   position: relative;
 }
