@@ -73,6 +73,10 @@ body {
   padding: 2em;
 }
 
+#about .lead {
+  font-weight: 700;
+}
+
 #portfolio {
   background-color: #9797de;
 }
@@ -175,11 +179,11 @@ input[type=submit]:hover {
 
 /* Tablet Styles */
 @media (min-width: 481px) {
-  div.col {
+  #portfolio div.col {
     padding: 0.75em;
   }
 
-  div.card {
+  #portfolio div.card {
     width: 22rem;
   }
 }
@@ -195,10 +199,6 @@ input[type=submit]:hover {
   }
 
   #about .container {
-    padding: 1em 15em;
-  }
-
-  div.col {
-    padding: 0.75em;
+    padding: 1em 10em;
   }
 }
