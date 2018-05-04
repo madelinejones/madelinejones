@@ -55,12 +55,12 @@ body {
 
 #intro h1 {
   font-size: 3em;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 #about h1, #contact h1 {
   font-size: 2em;
-  font-weight: 600;
+  font-weight: 700;
   color: #9797de;
   text-align: center;
 }
