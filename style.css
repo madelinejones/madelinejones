@@ -85,6 +85,14 @@ body {
   border-bottom: 1px solid #eee;
 }
 
+div.card {
+  transition: all .2s ease-in-out;
+}
+
+div.card:hover {
+  transform: scale(1.1);
+}
+
 .btn-primary {
   background-color: #5558fb;
   border-color: #4b4ddd;
