@@ -37,7 +37,7 @@ header {
 
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #000;
   position: relative;
 }
@@ -56,13 +56,17 @@ body {
   background-image: url(https://image.ibb.co/bvQe4G/header.png);
   background-size: cover;
   margin: 0;
-  padding: 10em 0em;
+  padding: 5em 0em;
   text-align: center;
   color: #fff;
 }
 
 h1, h2, h3, h4, h5, strong {
   font-weight: 700;
+}
+
+h1.display-2 {
+  font-size: 3.5rem;
 }
 
 #about h1, #contact h1 {
@@ -184,6 +188,10 @@ input[type=submit]:hover {
     font-size: 1.3rem;
   }
 
+  h1.display-2 {
+    font-size: 5.5rem;
+  }
+
   #portfolio div.col {
     padding: 0.75rem;
   }
@@ -199,10 +207,6 @@ input[type=submit]:hover {
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
-  body {
-    font-size: 1rem;
-  }
-
   .navbar-light .navbar-nav .nav-link {
     color: #5558fb;
     font-size: 1.1rem;
