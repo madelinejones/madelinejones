@@ -67,9 +67,18 @@ h1.display-3 {
   font-size: 3.5rem;
 }
 
+#about {
+  text-align: center;
+  line-height: 1.5;
+}
+
 #about h1, #contact h1 {
   color: #9797de;
   text-align: center;
+}
+
+#about, #contact {
+  font-size: 1.25rem;
 }
 
 #about, #portfolio, #contact {
@@ -116,6 +125,10 @@ div.card:hover {
 .btn-primary:hover {
   background-color: #7072ff;
   border-color: #6062dd;
+}
+
+label {
+  font-weight: 700;
 }
 
 footer {
