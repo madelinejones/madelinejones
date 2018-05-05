@@ -19,7 +19,7 @@
         <li><a class="nav-link nav-item" href="#cont">Contact</a></li>
         </ul>
       </nav> -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -105,19 +105,25 @@
 
     <section id="contact">
       <h1>Contact</h1>
-        <div class="container">
-          <form action="https://formspree.io/brandkast@live.com" method="POST">
+      <form action="https://formspree.io/brandkast@live.com" method="POST">
+        <div class="form-group">
           <label for="fName">First Name</label>
-          <input type="text" id="fName" name="firstName" placeholder="Your name...">
+          <input type="text" class="form-control" id="fName" name="firstName" placeholder="Enter first name">
+        </div>
+        <div class="form-group">
           <label for="lName">Last Name</label>
-          <input type="text" id="lName" name="lastName" placeholder="Your last name...">
-          <label for="eMail">E-mail</label>
-          <input type="email" id="eMail" name="eMail" placeholder="name@address.com">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write something..." style="height:170px"></textarea>
-          <input type="submit" value="Submit">
-        </form>
-      </div>
+          <input type="text" class="form-control" id="lName" name="lastName" placeholder="Enter last name">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </section>
 
     <footer>
