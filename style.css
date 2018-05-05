@@ -156,7 +156,7 @@ footer li {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
-  padding: 0em 2em;
+  padding: 0em 1em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
