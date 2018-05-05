@@ -3,9 +3,12 @@
           box-sizing: border-box;
 }
 
-.nav {
-  padding: 1em;
+#navbar {
   background-color: #fff;
+}
+
+img.navbar-brand {
+  max-height: 3.125rem;
 }
 
 a.nav-link.nav-item {
