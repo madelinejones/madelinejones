@@ -3,6 +3,10 @@
           box-sizing: border-box;
 }
 
+header {
+  padding-bottom:
+}
+
 #navbar {
   background-color: #fff;
 }
@@ -13,7 +17,7 @@
 
 .navbar-light .navbar-nav .nav-link {
   color: #5558fb;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -180,6 +184,10 @@ input[type=submit]:hover {
     font-size: 1.3rem;
   }
 
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.3rem;
+  }
+
   #portfolio div.col {
     padding: 0.75rem;
   }
@@ -198,7 +206,12 @@ input[type=submit]:hover {
   body {
     font-size: 1rem;
   }
-  
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #5558fb;
+    font-size: 1.1rem;
+  }
+
   #intro {
     padding: 18em 0em;
   }
