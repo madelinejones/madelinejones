@@ -20,12 +20,13 @@
   color: #a2a4fb;
 }
 
-.navbar-light .navbar-nav .nav-link .active {
+.nav-pills .nav-link.active {
   background-color: #5558fb;
   color: #fff;
+  padding: 0.5em 1em;
 }
 
-.navbar-light .navbar-nav .nav-link .active:hover {
+.nav-pills .nav-link.active:hover {
   background-color: #7072ff;
   color: #fff;
 }
