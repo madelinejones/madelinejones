@@ -20,20 +20,20 @@
   color: #a2a4fb;
 }
 
-.nav-pills .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active {
   background-color: #5558fb;
   color: #fff;
   padding: 0.5em 1em;
 }
 
-.nav-pills .nav-link.active:hover {
+..navbar-light .navbar-nav .nav-link.active:hover {
   background-color: #7072ff;
   color: #fff;
 }
 
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #000;
   position: relative;
 }
@@ -176,6 +176,10 @@ input[type=submit]:hover {
 
 /* Tablet Styles */
 @media (min-width: 481px) {
+  body {
+    font-size: 1.3rem;
+  }
+
   #portfolio div.col {
     padding: 0.75rem;
   }
@@ -191,6 +195,10 @@ input[type=submit]:hover {
 
 /* Desktop Styles */
 @media (min-width: 1025px) {
+  body {
+    font-size: 1rem;
+  }
+  
   #intro {
     padding: 18em 0em;
   }
