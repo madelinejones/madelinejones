@@ -11,21 +11,21 @@
   max-height: 3.125rem;
 }
 
-a.nav-link {
+.navbar-light .navbar-nav .nav-link {
   color: #5558fb;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
-a.nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
   color: #a2a4fb;
 }
 
-a.nav-link.active {
+.navbar-light .navbar-nav .nav-link .active {
   background-color: #5558fb;
   color: #fff;
 }
 
-a.nav-link.active:hover {
+.navbar-light .navbar-nav .nav-link .active:hover {
   background-color: #7072ff;
   color: #fff;
 }
@@ -56,7 +56,7 @@ body {
   color: #fff;
 }
 
-h1, strong {
+h1, h2, h3, h4, h5, strong {
   font-weight: 700;
 }
 
