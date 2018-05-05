@@ -70,10 +70,6 @@ h1, h2, h3, h4, h5, strong {
   text-align: center;
 }
 
-#about .container, #contact .container {
-  padding: 1em 3em;
-}
-
 #about, #portfolio, #contact {
   padding: 2em;
 }
@@ -194,10 +190,6 @@ input[type=submit]:hover {
 
   #portfolio div.card {
     width: 22rem;
-  }
-
-  #about .container, #contact .container {
-    padding: 1em 6em;
   }
 
   li.nav-item {
