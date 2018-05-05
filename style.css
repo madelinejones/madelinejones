@@ -11,31 +11,28 @@
   max-height: 3.125rem;
 }
 
-a.nav-link.nav-item {
+a.nav-link {
   color: #5558fb;
+  font-size: 1.5rem;
 }
 
-a.nav-link.nav-item:hover {
+a.nav-link:hover {
   color: #a2a4fb;
 }
 
-a.nav-link.active.nav-item {
+a.nav-link.active {
   background-color: #5558fb;
   color: #fff;
 }
 
-a.nav-link.active.nav-item:hover {
+a.nav-link.active:hover {
   background-color: #7072ff;
   color: #fff;
 }
 
-strong {
-  font-weight: 700;
-}
-
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
-  /* font-size: 1em; */
+  font-size: 1.2rem;
   color: #000;
   position: relative;
 }
@@ -59,24 +56,17 @@ body {
   color: #fff;
 }
 
-#intro h1 {
-  /* font-size: 4em; */
+h1, strong {
   font-weight: 700;
 }
 
 #about h1, #contact h1 {
-  /* font-size: 3em; */
-  font-weight: 700;
   color: #9797de;
   text-align: center;
 }
 
 #about .container {
   padding: 1em 3em;
-}
-
-.lead {
-  /* font-size: 2em; */
 }
 
 #about, #portfolio, #contact {
@@ -186,11 +176,15 @@ input[type=submit]:hover {
 /* Tablet Styles */
 @media (min-width: 481px) {
   #portfolio div.col {
-    padding: 0.75em;
+    padding: 0.75rem;
   }
 
   #portfolio div.card {
     width: 22rem;
+  }
+
+  li.nav-item {
+    padding: 1rem;
   }
 }
 
