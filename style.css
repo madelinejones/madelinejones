@@ -34,7 +34,6 @@ body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
   /* font-size: 1em; */
   color: #000;
-  padding-top: 55px;
   position: relative;
 }
 
@@ -196,10 +195,6 @@ input[type=submit]:hover {
 @media (min-width: 1025px) {
   #intro {
     padding: 18em 0em;
-  }
-
-  body {
-    padding-top: 70px;
   }
 
   #about .container {
