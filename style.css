@@ -4,7 +4,7 @@
 }
 
 header {
-  padding-bottom:
+  padding-bottom: 3.125rem;
 }
 
 #navbar {
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, strong {
   text-align: center;
 }
 
-#about .container {
+#about .container, #contact .container {
   padding: 1em 3em;
 }
 
@@ -196,6 +196,10 @@ input[type=submit]:hover {
     width: 22rem;
   }
 
+  #about .container, #contact .container {
+    padding: 1em 6em;
+  }
+
   li.nav-item {
     padding: 1rem;
   }
@@ -216,7 +220,7 @@ input[type=submit]:hover {
     padding: 18em 0em;
   }
 
-  #about .container {
+  #about .container, #contact .container {
     padding: 1em 10em;
   }
 }
