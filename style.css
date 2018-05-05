@@ -37,8 +37,6 @@ header {
 
 body {
   font-family: "acumin-pro", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
-  color: #000;
   position: relative;
 }
 
@@ -65,7 +63,7 @@ h1, h2, h3, h4, h5, strong {
   font-weight: 700;
 }
 
-h1.display-2 {
+h1.display-3 {
   font-size: 3.5rem;
 }
 
@@ -180,16 +178,12 @@ input[type=submit]:hover {
 
 /* Tablet Styles */
 @media (min-width: 481px) {
-  body {
-    font-size: 1.3rem;
-  }
-
   .navbar-light .navbar-nav .nav-link {
     font-size: 1.3rem;
   }
 
-  h1.display-2 {
-    font-size: 5.5rem;
+  h1.display-3 {
+    font-size: 4.5rem;
   }
 
   #portfolio div.col {
